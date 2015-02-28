@@ -1,0 +1,23 @@
+{
+  "name": "ivanlemeshev/laravel5-cyrillic-slug",
+  "description": "Laravael 5 slug maker for Cyrillic strings",
+  "keywords": ["laravel", "laravel5", "slug", "cyrillic"],
+  "homepage": "https://github.com/ivanlemeshev/laravel5-cyrillic-slug",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Lemeshev",
+      "email": "vanlmshv@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "IvanLemeshev\\Laravel5CyrillicSlug\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

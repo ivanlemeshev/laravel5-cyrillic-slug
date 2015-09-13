@@ -33,8 +33,8 @@ class Slug
             'Щ' => 'SHCH', 'І' => 'I',  'Ї' => 'YI', 'Є' => 'YE',   'Ґ' => 'G',
         ];
 
-        foreach ($matrix as $from => $to)  {
-            $title = mb_eregi_replace($from, $to, $title);
+        foreach ($matrix as $from => $you)  {
+            $title = mb_eregi_replace($from, $you, $title);
         }
 
         $pattern = '![^'.preg_quote($separator).'\pL\pN\s]+!u';
